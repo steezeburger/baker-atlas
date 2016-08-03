@@ -1,0 +1,517 @@
+[
+	{
+		"name" : "Urban Dispensary - Med",
+		"lat" : 39.7695380,
+		"lon" : -105.0203300
+	},
+	{
+		"name" : "Lotus Medical",
+		"lat" : 39.7498468,
+		"lon" : -105.0015164
+	},
+	{
+		"name" : "ORGANIX - Rec",
+		"lat" : 39.5077107,
+		"lon" : -106.0522927
+	},
+	{
+		"name" : "ORGANIX - Med",
+		"lat" : 39.5077107,
+		"lon" : -106.0522927
+	},
+	{
+		"name" : "The Health Center UHills - Med ",
+		"lat" : 39.6658390,
+		"lon" : -104.9410510
+	},
+	{
+		"name" : "The Health Center UHills - Adult Use",
+		"lat" : 39.6658390,
+		"lon" : -104.9410510
+	},
+	{
+		"name" : "The Kind Room - Rec",
+		"lat" : 39.6824932,
+		"lon" : -104.9878728
+	},
+	{
+		"name" : "The Kind Room - Med",
+		"lat" : 39.6824932,
+		"lon" : -104.9878728
+	},
+	{
+		"name" : "LoDo Wellness Center - Rec",
+		"lat" : 39.7517160,
+		"lon" : -104.9998770
+	},
+	{
+		"name" : "LoDo Wellness Center - Med",
+		"lat" : 39.7517160,
+		"lon" : -104.9998770
+	},
+	{
+		"name" : "Urban Dispensary - Rec",
+		"lat" : 39.7695380,
+		"lon" : -105.0203300
+	},
+	{
+		"name" : "Mile High Green Cross - Rec",
+		"lat" : 39.7300727,
+		"lon" : -104.9870906
+	},
+	{
+		"name" : "Starbuds DU",
+		"lat" : 39.6783959,
+		"lon" : -104.9678326
+	},
+	{
+		"name" : "High Quality Compassion ",
+		"lat" : 44.5782760,
+		"lon" : -123.2607449
+	},
+	{
+		"name" : "GroundSwell - Rec",
+		"lat" : 39.7403740,
+		"lon" : -104.9506193
+	},
+	{
+		"name" : "Native Roots Longmont - Med",
+		"lat" : 40.1617004,
+		"lon" : -105.1220415
+	},
+	{
+		"name" : "Native Roots Longmont - Rec",
+		"lat" : 40.1617004,
+		"lon" : -105.1220415
+	},
+	{
+		"name" : "GroundSwell - Med",
+		"lat" : 39.7403854,
+		"lon" : -104.9506155
+	},
+	{
+		"name" : "Native Roots Boulder",
+		"lat" : 40.0177497,
+		"lon" : -105.2802058
+	},
+	{
+		"name" : "Native Roots Edgewater - Rec",
+		"lat" : 39.7474170,
+		"lon" : -105.0582520
+	},
+	{
+		"name" : "Native Roots Aspen - Rec",
+		"lat" : 39.1882290,
+		"lon" : -106.8171978
+	},
+	{
+		"name" : "Native Roots Colorado Springs ",
+		"lat" : 38.8912006,
+		"lon" : -104.7587759
+	},
+	{
+		"name" : "Native Roots Dillon",
+		"lat" : 39.6294646,
+		"lon" : -106.0613836
+	},
+	{
+		"name" : "Native Roots Denver Medical",
+		"lat" : 39.7463949,
+		"lon" : -104.9944211
+	},
+	{
+		"name" : "Native Roots Downtown - Rec",
+		"lat" : 39.7463949,
+		"lon" : -104.9944211
+	},
+	{
+		"name" : "Native Roots Littleton - Rec",
+		"lat" : 39.6385402,
+		"lon" : -105.0846701
+	},
+	{
+		"name" : "Native Roots Littleton Medical",
+		"lat" : 39.6385402,
+		"lon" : -105.0846701
+	},
+	{
+		"name" : "Native Roots South - Med",
+		"lat" : 39.6683721,
+		"lon" : -104.9964899
+	},
+	{
+		"name" : "Native Roots South - Rec",
+		"lat" : 39.6683721,
+		"lon" : -104.9964899
+	},
+	{
+		"name" : "The Dandelion",
+		"lat" : 40.0161760,
+		"lon" : -105.2840349
+	},
+	{
+		"name" : "Native Roots Vail - Rec",
+		"lat" : 39.6205483,
+		"lon" : -106.4696167
+	},
+	{
+		"name" : "Native Roots Vail Medical",
+		"lat" : 39.6205483,
+		"lon" : -106.4696167
+	},
+	{
+		"name" : "Native Roots Summit - Rec",
+		"lat" : 39.5858184,
+		"lon" : -106.0943552
+	},
+	{
+		"name" : "Native Roots Summit - Med",
+		"lat" : 39.5858184,
+		"lon" : -106.0943552
+	},
+	{
+		"name" : "Native Roots Edgewater Medical",
+		"lat" : 39.7474170,
+		"lon" : -105.0582520
+	},
+	{
+		"name" : "Native Roots Aspen - Med",
+		"lat" : 39.1882290,
+		"lon" : -106.8171978
+	},
+	{
+		"name" : "Altitude - East Colfax ",
+		"lat" : 39.7404719,
+		"lon" : -104.8661690
+	},
+	{
+		"name" : "Ajoya - Lakewood",
+		"lat" : 39.7400412,
+		"lon" : -105.1320585
+	},
+	{
+		"name" : "Mile High Green Cross - Med",
+		"lat" : 39.7300727,
+		"lon" : -104.9870906
+	},
+	{
+		"name" : "Wellspring Collective - Med",
+		"lat" : 39.6852123,
+		"lon" : -104.9871916
+	},
+	{
+		"name" : "Wellspring Collective - Rec",
+		"lat" : 39.6852123,
+		"lon" : -104.9871916
+	},
+	{
+		"name" : "Rocky Road Vail ",
+		"lat" : 39.6218020,
+		"lon" : -106.4869587
+	},
+	{
+		"name" : "Ajoya - Med",
+		"lat" : 39.9615569,
+		"lon" : -105.1661306
+	},
+	{
+		"name" : "Smokin Gun Apothecary",
+		"lat" : 39.7076165,
+		"lon" : -104.9406477
+	},
+	{
+		"name" : "Ajoya - Rec",
+		"lat" : 39.9615569,
+		"lon" : -105.1661306
+	},
+	{
+		"name" : "Gas & Grass – Academy",
+		"lat" : 38.8474300,
+		"lon" : -104.7569519
+	},
+	{
+		"name" : "Gas & Grass – Uintah",
+		"lat" : 38.8477214,
+		"lon" : -104.8462277
+	},
+	{
+		"name" : "Rocky Road Aurora",
+		"lat" : 39.6849160,
+		"lon" : -104.8096887
+	},
+	{
+		"name" : "CannaCopia Collective",
+		"lat" : 44.0408887,
+		"lon" : -121.3033982
+	},
+	{
+		"name" : "The Original Leaf",
+		"lat" : 39.1869219,
+		"lon" : -106.8186407
+	},
+	{
+		"name" : "Growing ReLeaf",
+		"lat" : 45.4899794,
+		"lon" : -122.7886022
+	},
+	{
+		"name" : "Kaleafa Portland",
+		"lat" : 45.4789515,
+		"lon" : -122.6080152
+	},
+	{
+		"name" : "Preferred Organic Therapy",
+		"lat" : 39.6883324,
+		"lon" : -104.9416246
+	},
+	{
+		"name" : "Sticky Buds - Broadway - Med",
+		"lat" : 39.6754993,
+		"lon" : -104.9872990
+	},
+	{
+		"name" : "Sticky Buds - Colfax - Med",
+		"lat" : 39.7404005,
+		"lon" : -104.9333076
+	},
+	{
+		"name" : "Sticky Buds - Broadway - Rec",
+		"lat" : 39.6754993,
+		"lon" : -104.9872990
+	},
+	{
+		"name" : "Sticky Buds - Colfax - Rec",
+		"lat" : 39.7404005,
+		"lon" : -104.9333076
+	},
+	{
+		"name" : "The Bakery",
+		"lat" : 39.7571870,
+		"lon" : -104.9893540
+	},
+	{
+		"name" : "Nectar - Sandy",
+		"lat" : 45.5318577,
+		"lon" : -122.6296999
+	},
+	{
+		"name" : "Nectar - Mississippi",
+		"lat" : 45.5536706,
+		"lon" : -122.6755334
+	},
+	{
+		"name" : "Nectar - NE 122nd",
+		"lat" : 45.5300492,
+		"lon" : -122.5380288
+	},
+	{
+		"name" : "Nectar - SW 53rd",
+		"lat" : 45.4463430,
+		"lon" : -122.7313560
+	},
+	{
+		"name" : "Cannabliss & Co. Fire Station 23",
+		"lat" : 45.5090582,
+		"lon" : -122.6590729
+	},
+	{
+		"name" : "Cannabliss & Co. 22nd & Burn",
+		"lat" : 45.5234710,
+		"lon" : -122.6970350
+	},
+	{
+		"name" : "Cannabliss & Co. Sorority House",
+		"lat" : 44.0474450,
+		"lon" : -123.0839060
+	},
+	{
+		"name" : "Nectar - River Road",
+		"lat" : 44.0658756,
+		"lon" : -123.1179957
+	},
+	{
+		"name" : "Gas and Grass - Tejon",
+		"lat" : 38.8127764,
+		"lon" : -104.8243286
+	},
+	{
+		"name" : "Garden Kings",
+		"lat" : 44.0557502,
+		"lon" : -121.3017113
+	},
+	{
+		"name" : "The Herb Center (THC)",
+		"lat" : 44.0718287,
+		"lon" : -121.3061194
+	},
+	{
+		"name" : "The Flowershop Powellhurst",
+		"lat" : 45.5036930,
+		"lon" : -122.5338332
+	},
+	{
+		"name" : "Native Roots Adams",
+		"lat" : 39.8018043,
+		"lon" : -104.9797430
+	},
+	{
+		"name" : "Blue Sky of Portland",
+		"lat" : 45.5019016,
+		"lon" : -122.6584808
+	},
+	{
+		"name" : "The Flowershop St. Helens",
+		"lat" : 45.8202990,
+		"lon" : -122.8486700
+	},
+	{
+		"name" : "Medicine Man Denver - Med",
+		"lat" : 39.7836128,
+		"lon" : -104.8520453
+	},
+	{
+		"name" : "Medicine Man Denver - Rec",
+		"lat" : 39.7836128,
+		"lon" : -104.8520453
+	},
+	{
+		"name" : "Medicine Man Aurora",
+		"lat" : 39.6817321,
+		"lon" : -104.8664385
+	},
+	{
+		"name" : "Eugene OG",
+		"lat" : 44.0453610,
+		"lon" : -123.0624020
+	},
+	{
+		"name" : "Divine Kind",
+		"lat" : 45.4624259,
+		"lon" : -122.6852779
+	},
+	{
+		"name" : "Herban Legends",
+		"lat" : 47.6121719,
+		"lon" : -122.3477274
+	},
+	{
+		"name" : "Platte Valley Dispensary ",
+		"lat" : 39.7522628,
+		"lon" : -105.0145385
+	},
+	{
+		"name" : "Headquarters Cannabis Co.",
+		"lat" : 40.2127392,
+		"lon" : -105.2492154
+	},
+	{
+		"name" : "Moss Crossing",
+		"lat" : 44.0284649,
+		"lon" : -123.1051672
+	},
+	{
+		"name" : "Cannabliss & Co. Main Street",
+		"lat" : 44.0464119,
+		"lon" : -122.9886189
+	},
+	{
+		"name" : "Hashtag",
+		"lat" : 47.6504001,
+		"lon" : -122.3423456
+	},
+	{
+		"name" : "Natural Remedies - Rec",
+		"lat" : 39.7500369,
+		"lon" : -104.9976130
+	},
+	{
+		"name" : "Natural Remedies - Med",
+		"lat" : 39.7500369,
+		"lon" : -104.9976130
+	},
+	{
+		"name" : "The Health Center Uptown - Adult Use ",
+		"lat" : 39.7440580,
+		"lon" : -104.9730440
+	},
+	{
+		"name" : "The Health Center Uptown - Medical",
+		"lat" : 39.7440580,
+		"lon" : -104.9730440
+	},
+	{
+		"name" : "The Agrestic",
+		"lat" : 44.5496963,
+		"lon" : -123.2650237
+	},
+	{
+		"name" : "High Street Growers",
+		"lat" : 39.7217660,
+		"lon" : -105.0248473
+	},
+	{
+		"name" : "Eden - Bellwoods",
+		"lat" : 43.6460650,
+		"lon" : -79.4105019
+	},
+	{
+		"name" : "Dark Heart Nursery",
+		"lat" : 38.6105951,
+		"lon" : -121.4327028
+	},
+	{
+		"name" : "Bloom Well Bend",
+		"lat" : 44.0679891,
+		"lon" : -121.3055723
+	},
+	{
+		"name" : "Buds & Roses",
+		"lat" : 34.1460208,
+		"lon" : -118.4176749
+	},
+	{
+		"name" : "Three Rivers Organics",
+		"lat" : 38.2455501,
+		"lon" : -104.5789234
+	},
+	{
+		"name" : "Jayne",
+		"lat" : 45.5387499,
+		"lon" : -122.6620002
+	},
+	{
+		"name" : "Kushside",
+		"lat" : 47.8780465,
+		"lon" : -122.2692912
+	},
+	{
+		"name" : "Mary Mart",
+		"lat" : 47.2554521,
+		"lon" : -122.4752351
+	},
+	{
+		"name" : "American Mary",
+		"lat" : 47.6611776,
+		"lon" : -122.3242521
+	},
+	{
+		"name" : "Attis Trading Co. - Gladstone",
+		"lat" : 45.4930476,
+		"lon" : -122.6392649
+	},
+	{
+		"name" : "Attis Trading Co. - Cully",
+		"lat" : 45.5587360,
+		"lon" : -122.5979912
+	},
+	{
+		"name" : "Attis Trading Co. - Barbur",
+		"lat" : 45.4688824,
+		"lon" : -122.6925570
+	},
+	{
+		"name" : "Attis Trading Co. - Tillamook",
+		"lat" : 45.4712890,
+		"lon" : -123.8455410
+	}
+]

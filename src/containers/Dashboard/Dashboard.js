@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import Helmet from 'react-helmet';
-import MapGL from 'react-map-gl';
-
 import { BakerMap } from 'components';
 
-export default class Dashboard extends Component {
+class Dashboard extends Component {
   render() {
+    const styles = require('./Dashboard.scss');
     return (
-      <div className="container">
+      <div id="dashboard" className={styles.dashboard}>
         <Helmet title="Baker Atlas"/>
-        <h1>Dashboard</h1>
         <BakerMap />
       </div>
     );
   }
 }
+
+export default Dashboard;

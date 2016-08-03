@@ -19,6 +19,8 @@ const component = (
   </Router>
 );
 
+
+require('./index.css');
 ReactDOM.render(
   <Provider key="provider"
             store={store}

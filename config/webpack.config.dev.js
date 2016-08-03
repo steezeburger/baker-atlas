@@ -24,7 +24,7 @@ module.exports = {
     root: paths.ownNodeModules,
     extensions: ['', '.js', '.json'],
     modulesDirectories: [
-      paths.appSrc
+      paths.appSrc,
     ],
     alias: {
       webworkify: 'webworkify-webpack',
@@ -66,6 +66,11 @@ module.exports = {
         test: /\.css$/,
         include: [paths.appSrc, paths.appNodeModules],
         loader: 'style!css!postcss'
+      },
+      {
+        test: /\.scss$/,
+        include: [paths.appSrc],
+        loader: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]___[hash:base64:5]!autoprefixer?browsers=last 2 version!sass?outputStyle=expanded&sourceMap'
       },
       {
         test: /\.json$/,
