@@ -48,7 +48,8 @@ if (isInCreateReactAppSource) {
 } else {
   // after eject: we're in ./config/
   module.exports = {
-    appBuild: resolveApp('build'),
+    // appBuild: resolveApp('build'),
+    appBuild: resolveApp('baker-atlas'),
     appHtml: resolveApp('index.html'),
     appFavicon: resolveApp('favicon.ico'),
     appPackageJson: resolveApp('package.json'),

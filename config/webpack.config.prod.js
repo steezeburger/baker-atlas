@@ -27,17 +27,15 @@ module.exports = {
     publicPath: publicPath
   },
   resolve: {
+    root: paths.ownNodeModules,
     extensions: ['', '.js', '.json'],
+    modulesDirectories: [
+      paths.appSrc,
+    ],
     alias: {
-      // This `alias` section can be safely removed after ejection.
-      // We do this because `babel-runtime` may be inside `react-scripts`,
-      // so when `babel-plugin-transform-runtime` imports it, it will not be
-      // available to the app directly. This is a temporary solution that lets
-      // us ship support for generators. However it is far from ideal, and
-      // if we don't have a good solution, we should just make `babel-runtime`
-      // a dependency in generated projects.
-      // See https://github.com/facebookincubator/create-react-app/issues/255
-      'babel-runtime/regenerator': require.resolve('babel-runtime/regenerator')
+      webworkify: 'webworkify-webpack',
+      'mapbox-gl/js/geo/transform': path.resolve('./node_modules/mapbox-gl/js/geo/transform'),
+      'mapbox-gl': path.resolve('./node_modules/mapbox-gl/dist/mapbox-gl.js')
     }
   },
   resolveLoader: {
@@ -68,6 +66,11 @@ module.exports = {
         loader: ExtractTextPlugin.extract('style', 'css?-autoprefixer!postcss')
       },
       {
+        test: /\.scss$/,
+        include: [paths.appSrc],
+        loader: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]___[hash:base64:5]!autoprefixer?browsers=last 2 version!sass?outputStyle=expanded&sourceMap'
+      },
+      {
         test: /\.json$/,
         include: [paths.appSrc, paths.appNodeModules],
         loader: 'json'
@@ -88,6 +91,15 @@ module.exports = {
           limit: 10000,
           name: 'static/media/[name].[hash:8].[ext]'
         }
+      },
+      {
+        test: /\.js$/,
+        include: path.resolve(__dirname, 'node_modules/webworkify/index.js'),
+        loader: 'worker'
+      },
+      {
+        test: /mapbox-gl.+\.js$/,
+        loader: 'transform/cacheable?brfs'
       }
     ]
   },
