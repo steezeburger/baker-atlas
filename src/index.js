@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { Router, applyRouterMiddleware, hashHistory } from 'react-router';
 import { syncHistoryWithStore } from 'react-router-redux';
+import useScroll from 'react-router-scroll';
 // custom
 import createStore from './redux/createStore';
 import ApiClient from './utils/ApiClient';
@@ -19,7 +20,9 @@ const component = (
 );
 
 ReactDOM.render(
-  <Provider store={store} key="provider">
+  <Provider key="provider"
+            store={store}
+            render={applyRouterMiddleware(useScroll())}>
     {component}
   </Provider>,
   document.getElementById('baker-atlas')
